@@ -1,0 +1,21 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "watch": "tsc *.ts providers/*.ts -w",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "express": "4.16.2",
+    "firebase-admin": "5.4.2",
+    "firebase-functions": "0.7.1",
+    "geoip-lite": "1.2.1"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "8.0.34",
+    "nodemon": "1.12.1"
+  }
+}
