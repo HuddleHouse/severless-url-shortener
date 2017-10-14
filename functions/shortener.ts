@@ -5,6 +5,7 @@ import {
 import {config} from "./config";
 import {encode, decode} from "./providers/hash-service";
 import {isUndefined} from "util";
+
 var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');

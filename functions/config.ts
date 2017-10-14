@@ -1,5 +1,5 @@
 var conf = {
-    webhost: 'https://us-central1-blog-url-shortener-ef9f0.cloudfunctions.net/shorten',
+    webhost: 'https://short.progblog.io/',
     redirect: 'https://storagepug.com'
 };
 
