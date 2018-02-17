@@ -22,6 +22,7 @@ The stats that we will save for each click are:
 	country: string,
 	lat: number,
 	lon: number,
+	
 	region: string,
 	zip: number
 }
